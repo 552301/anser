@@ -1,0 +1,6 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://anser-registry:8001/eureka/
+  instance:
+    prefer-ip-address: true
